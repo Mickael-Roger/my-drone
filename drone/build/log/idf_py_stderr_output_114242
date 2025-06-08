@@ -1,0 +1,56 @@
+[0;33m--- esp-idf-monitor 1.5.0 on /dev/ttyUSB0 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d3587: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d3584: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d689f: uart_enable_tx_write_fifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:989
+0x400d7872: uart_tx_all at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1443
+0x400d808e: uart_write_bytes at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1474
+0x400d9ea9: serial_send at /home/mickael/Documents/Maker/my-drone/drone/main/serial/serial.c:35
+0x400d9d35: udp_server_task at /home/mickael/Documents/Maker/my-drone/drone/main/command/command.c:56
+0x4008b00d: vPortTaskWrapper at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d3587: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d3584: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d689f: uart_enable_tx_write_fifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:989
+0x400d7872: uart_tx_all at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1443
+0x400d808e: uart_write_bytes at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1474
+0x400d9ea9: serial_send at /home/mickael/Documents/Maker/my-drone/drone/main/serial/serial.c:35
+0x400d9d35: udp_server_task at /home/mickael/Documents/Maker/my-drone/drone/main/command/command.c:56
+0x4008b00d: vPortTaskWrapper at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400d3587: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 2)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 2)
+[0m
+[0;33m--- 0x4000c2e0: memcpy in ROM
+0x4000c2f6: memcpy in ROM
+[0m
+[0;33m--- 0x400d3584: uart_ll_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/esp32/include/hal/uart_ll.h:344 (discriminator 1)
+ (inlined by) uart_hal_write_txfifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/hal/uart_hal_iram.c:32 (discriminator 1)
+0x400d689f: uart_enable_tx_write_fifo at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:989
+0x400d7872: uart_tx_all at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1443
+0x400d808e: uart_write_bytes at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_driver_uart/src/uart.c:1474
+0x400d9ea9: serial_send at /home/mickael/Documents/Maker/my-drone/drone/main/serial/serial.c:35
+0x400d9d35: udp_server_task at /home/mickael/Documents/Maker/my-drone/drone/main/command/command.c:56
+0x4008b00d: vPortTaskWrapper at /nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:139
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0m

@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/mickael/Documents/Maker/my-drone/drone/build/CMakeFiles/bootloader
+/home/mickael/Documents/Maker/my-drone/drone/build/CMakeFiles/bootloader.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/CMakeFiles/bootloader-complete.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/mickael/Documents/Maker/my-drone/drone/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
