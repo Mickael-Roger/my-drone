@@ -8,7 +8,7 @@
 
 
 #define UART_PORT UART_NUM_1
-#define UART_TX_PIN GPIO_NUM_17
+#define UART_TX_PIN GPIO_NUM_43
 #define UART_BAUD_RATE 19200
 
 static const char *TAG = "serial";

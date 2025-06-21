@@ -1,9 +1,0 @@
-[0/1] Re-running CMake...
--- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
--- Building ESP-IDF components for target esp32
-NOTICE: Processing 2 dependencies:
-NOTICE: [1/2] cybergear-robotics/icm20948 (1.0.0)
-NOTICE: [2/2] idf (5.4.0)
--- Configuring incomplete, errors occurred!
-FAILED: build.ninja 
-/nix/store/rsmnaiy0zj0g4rys9n7yavzr9l0d36kn-cmake-3.30.5/bin/cmake --regenerate-during-build -S/home/mickael/Documents/Maker/my-drone/drone -B/home/mickael/Documents/Maker/my-drone/drone/build

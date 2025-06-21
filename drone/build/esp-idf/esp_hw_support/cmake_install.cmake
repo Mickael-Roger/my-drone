@@ -34,12 +34,12 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-objdump")
+  set(CMAKE_OBJDUMP "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/mickael/Documents/Maker/my-drone/drone/build/esp-idf/esp_hw_support/port/esp32/cmake_install.cmake")
+  include("/home/mickael/Documents/Maker/my-drone/drone/build/esp-idf/esp_hw_support/port/esp32s3/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

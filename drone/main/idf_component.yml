@@ -14,3 +14,6 @@ dependencies:
   #   # `public` flag doesn't have an effect dependencies of the `main` component.
   #   # All dependencies of `main` are public by default.
   #   public: true
+  cybergear-robotics/icm20948:
+    git: https://github.com/cybergear-robotics/icm20948
+  espressif/esp32-camera: '*'

@@ -34,6 +34,6 @@ endif()
 
 # Set path to fallback-tool for dependency-resolution.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-objdump")
+  set(CMAKE_OBJDUMP "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-objdump")
 endif()
 

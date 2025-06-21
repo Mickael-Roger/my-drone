@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-g++")
+set(CMAKE_CXX_COMPILER "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "GNU")
 set(CMAKE_CXX_COMPILER_VERSION "14.2.0")
@@ -25,11 +25,11 @@ set(CMAKE_CXX_COMPILER_SYSROOT "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xten
 set(CMAKE_COMPILER_SYSROOT "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/bin/../xtensa-esp-elf/usr")
 
 
-set(CMAKE_AR "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-ar")
-set(CMAKE_CXX_COMPILER_AR "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-gcc-ar")
-set(CMAKE_RANLIB "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-ranlib")
-set(CMAKE_CXX_COMPILER_RANLIB "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-gcc-ranlib")
-set(CMAKE_LINKER "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32-elf-ld")
+set(CMAKE_AR "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-ar")
+set(CMAKE_CXX_COMPILER_AR "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-gcc-ar")
+set(CMAKE_RANLIB "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-ranlib")
+set(CMAKE_CXX_COMPILER_RANLIB "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-gcc-ranlib")
+set(CMAKE_LINKER "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/bin/xtensa-esp32s3-elf-ld")
 set(CMAKE_LINKER_LINK "")
 set(CMAKE_LINKER_LLD "")
 set(CMAKE_CXX_COMPILER_LINKER "NOTFOUND")
@@ -88,9 +88,9 @@ endif()
 
 
 
-set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include")
+set(CMAKE_CXX_IMPLICIT_INCLUDE_DIRECTORIES "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/xtensa-esp-elf/esp32s3;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include/c++/14.2.0/backward;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/include-fixed;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/include")
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "stdc++;m;gcc;c;nosys;c;gcc")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/lib/esp32;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/lib;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0/esp32s3;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/lib/esp32s3;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc/xtensa-esp-elf/14.2.0;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/lib/gcc;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/lib;/nix/store/24300vfbrdc4yhg1nl1hii37qbfgjvpg-xtensa-esp-elf-esp-idf-v5.4/xtensa-esp-elf/xtensa-esp-elf/usr/lib")
 set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")
 set(CMAKE_CXX_COMPILER_CLANG_RESOURCE_DIR "")
 

@@ -6,9 +6,13 @@
 
 #include "wifi/wifi.h"
 #include "command/command.h"
-//#include "icm/icm.h"
+#include "icm/icm.h"
+#include "camera.h"
+
 
 static const char *TAG = "main";
+
+
 
 void app_main(void)
 {
@@ -18,6 +22,7 @@ void app_main(void)
     ESP_LOGI(TAG, "Initialisation du module Wi-Fi...");
     wifi_init_softap();
 
+    //get_icm(&heading, &roll, &pitch);
 
     ESP_LOGI(TAG, "En attente de connexion client...");
 
@@ -30,12 +35,18 @@ void app_main(void)
 
     flying_command();
 
+
+    if (camera_init() == ESP_OK) {
+        xTaskCreatePinnedToCore(camera_stream_task, "cam_stream", 4096, NULL, 5, NULL, 1);
+    }
+
     //get_icm(&heading, &roll, &pitch);
 
-    //while(1){
-    //    ESP_LOGI(TAG, "Heading: %.2f°, Roll: %.2f°, Pitch: %.2f°\n", heading, roll, pitch);
-    //    printf("Heading: %.2f°, Roll: %.2f°, Pitch: %.2f°\n", heading, roll, pitch);
-    //}
+    while(1){
+        vTaskDelay(pdMS_TO_TICKS(10));
+        //ESP_LOGI(TAG, "Heading: %.2f°, Roll: %.2f°, Pitch: %.2f°\n", heading, roll, pitch);
+        //printf("Heading: %.2f°, Roll: %.2f°, Pitch: %.2f°\n", heading, roll, pitch);
+    }
 
 }
 

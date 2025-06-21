@@ -34,8 +34,8 @@ void wifi_init_softap(void)
 
     // Configuration IP statique
     esp_netif_ip_info_t ip_info;
-    IP4_ADDR(&ip_info.ip, 192, 168, 1, 1);     // IP de l'ESP32
-    IP4_ADDR(&ip_info.gw, 192, 168, 1, 1);     // Gateway (généralement même que IP)
+    IP4_ADDR(&ip_info.ip, 192, 168, 100, 1);     // IP de l'ESP32
+    IP4_ADDR(&ip_info.gw, 192, 168, 100, 1);     // Gateway (généralement même que IP)
     IP4_ADDR(&ip_info.netmask, 255, 255, 255, 0);  // Masque de sous-réseau
     ESP_ERROR_CHECK(esp_netif_dhcps_stop(netif));  // Stopper le DHCP avant de définir IP
     ESP_ERROR_CHECK(esp_netif_set_ip_info(netif, &ip_info));
@@ -61,7 +61,7 @@ void wifi_init_softap(void)
     ESP_ERROR_CHECK(esp_wifi_start());
 
     ESP_LOGI(TAG, "Point d'accès Wi-Fi initialisé avec le SSID : %s", wifi_config.ap.ssid);
-    ESP_LOGI(TAG, "Adresse IP : 192.168.1.1");
+    ESP_LOGI(TAG, "Adresse IP : 192.168.100.1");
 
     wifi_event_group = xEventGroupCreate();
 }

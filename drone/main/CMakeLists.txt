@@ -4,10 +4,13 @@ idf_component_register(
         wifi/wifi.c
         serial/serial.c
         command/command.c
+        icm/icm.c
+        camera/camera.c
     INCLUDE_DIRS
         .
         wifi
         serial
         command
+        icm
+        camera
 )
-

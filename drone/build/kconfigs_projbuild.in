@@ -3,3 +3,4 @@ source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esp_rom/Kconfig.projbuild"
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/esptool_py/Kconfig.projbuild"
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/partition_table/Kconfig.projbuild"
+source "/home/mickael/Documents/Maker/my-drone/drone/managed_components/cybergear-robotics__icm20948/Kconfig.projbuild"

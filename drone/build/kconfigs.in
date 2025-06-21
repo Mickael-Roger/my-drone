@@ -73,3 +73,4 @@ source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/usb/
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/vfs/Kconfig"
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/wear_levelling/Kconfig"
 source "/nix/store/id5c9bf5kk251aa76404lhh7zf0b82dx-esp-idf-v5.4/components/wifi_provisioning/Kconfig"
+source "/home/mickael/Documents/Maker/my-drone/drone/managed_components/espressif__esp32-camera/Kconfig"

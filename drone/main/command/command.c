@@ -19,13 +19,6 @@
 static bool client_ready = false;
 static struct sockaddr_in client_addr;
 
-static void print_hex(const uint8_t *data, int len) {
-    printf("Received %d bytes: ", len);
-    for (size_t i = 0; i < len; i++) {
-        printf("%02X ", data[i]);
-    }
-    printf("\n");
-}
 
 void udp_server_task(void *pvParameters) {
     char rx_buffer[128];
@@ -45,20 +38,11 @@ void udp_server_task(void *pvParameters) {
         int len = recvfrom(sock, rx_buffer, sizeof(rx_buffer), 0,
                            (struct sockaddr *)&client_addr, &socklen);
         if (len > 1) {
-            print_hex((uint8_t *)rx_buffer, len);
-
-            printf("Send: ");
+        
             for (size_t i = 1; i < len; i++) {
-               printf("%02X ", rx_buffer[i]);
-               serial_send(&rx_buffer[i]);
+                serial_send(&rx_buffer[i]);
             }
-            printf("\n");
 
-            if (!client_ready) {
-                client_ready = true;
-                ESP_LOGI(TAG, "Client registered: %s:%d",
-                         inet_ntoa(client_addr.sin_addr), ntohs(client_addr.sin_port));
-            }
         }
         vTaskDelay(pdMS_TO_TICKS(10));
     }
